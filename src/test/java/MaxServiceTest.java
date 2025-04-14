@@ -13,6 +13,7 @@ public class MaxServiceTest {
         int expected = a;
         int actual = service.max(a, b);
         Assertions.assertEquals(expected, actual);
+        
     }
 
 }
